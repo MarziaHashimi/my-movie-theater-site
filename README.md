@@ -17,4 +17,4 @@ my-movie-theater/
 │   └── trailer.mp4    → video trailer  
 
 ## 💡 Live Preview
-Coming soon...
+https://marziahashimi.github.io/my-movie-theater-site/
