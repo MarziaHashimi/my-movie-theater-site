@@ -68,3 +68,36 @@ video{
 .star{
     text-shadow: 1px 1px 7px #000;
 }
+
+@media (max-width: 768px) {
+    video {
+        width: 90vw;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .controls button {
+        font-size: 1rem;
+        padding: 8px 16px;
+        margin: 5px 5px;
+    }
+
+    .screen-border {
+        padding: 5px;
+        border-width: 5px;
+    }
+
+    .lights {
+        top: -10px; left: -10px; right: -10px; bottom: -10px;
+        border-radius: 20px;
+    }
+
+    body {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+}
